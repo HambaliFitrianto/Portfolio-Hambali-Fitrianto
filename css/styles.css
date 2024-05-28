@@ -144,7 +144,7 @@ footer {
 #student .activity img {
     max-width: 100%;
     height: auto;
-    max-height: 250px; /* Batasi tinggi maksimum gambar agar tidak terlalu besar */
+    max-height: 200px; /* Batasi tinggi maksimum gambar agar tidak terlalu besar */
 }
 
 #student .activity p {
