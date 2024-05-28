@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .subheader {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+/* Navigation Styles */
+nav {
+    background: #343A40;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #495057;
+    border-radius: 4px;
+}
+
+/* Main Content Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Menetapkan 2 kolom pada setiap baris */
+    gap: 1em;
+}
+
+h2 {
+    color: #007BFF;
+    margin-top: 0;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background: #343A40;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Certifications Section */
+#certifications {
+    padding: 2em;
+    margin: 1em 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#certifications h2 {
+    color: #007BFF;
+    margin-top: 0;
+}
+
+#certifications .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Menetapkan 2 kolom pada setiap baris */
+    gap: 20px;
+}
+
+.certification {
+    text-align: center;
+}
+
+.certification img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Batasi tinggi maksimum gambar */
+}
+
+.certification p {
+    margin-top: 10px;
+}
+
+/* Student Activities Section */
+#student .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Menetapkan 2 kolom pada setiap baris */
+    gap: 20px;
+}
+
+#student .activity {
+    text-align: center;
+}
+
+#student .activity img {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px; /* Batasi tinggi maksimum gambar agar tidak terlalu besar */
+}
+
+#student .activity p {
+    margin-top: 10px;
+}
